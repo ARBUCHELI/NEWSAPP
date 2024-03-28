@@ -24,7 +24,7 @@ class News extends Component {
     }
 
     renderItems() {
-        return this.props.items.map((item) => {
+        return this.state.news.map((item) => {
             return <NewSingle key={item.url} item={item} />
         });
     }
