@@ -1,4 +1,4 @@
-import React, { Component} from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import News from './News';
 import Sidenews from './Sidenews';
@@ -26,9 +26,17 @@ class App extends Component {
       <div className='container-fluid'>
         <div className='navbar-fixed'>
           <nav>
-            <div className='nav-wrapper'>
+            <div
+              className='nav-wrapper'
+              style={{
+                textAlign: 'center',
+                fontFamily: 'arial',
+                fontWeight: 'bold',
+                fontSize: '4em',
+                backgroundColor: '#36486b',
+              }}>
               <a href='/' className='brand-logo'>
-                My Feed
+                MY FEED
               </a>
             </div>
           </nav>
